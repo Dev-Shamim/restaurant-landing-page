@@ -316,7 +316,50 @@
         }
 
         .cta-content h2 { font-size: 2.5rem; color: white; margin-bottom: 30px; }
+
+        /* --- SECTION 8: FOOTER (Foodies-8.png) --- */
+        footer {
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .footer-col h3 { font-size: 18px; margin-bottom: 25px; }
+        .footer-col ul li { margin-bottom: 15px; }
+        .footer-col ul li a { color: var(--text-gray); transition: var(--transition); }
+        .footer-col ul li a:hover { color: var(--primary-color); }
+
+        .social-links { margin-top: 20px; }
+        .social-links a { margin-right: 15px; font-size: 18px; }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
         
+        .newsletter-form input {
+            flex: 1;
+            padding: 10px 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+
+        .copyright {
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            color: var(--text-gray);
+            font-size: 14px;
+        }
+
 
         /* --- RESPONSIVE DESIGN --- */
         @media (max-width: 1024px) {
